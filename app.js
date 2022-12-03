@@ -146,7 +146,7 @@ mayanez.addEventListener("click", (e) => {
 let big = document.getElementById("bigBtn");
 big.addEventListener("click", (e) => {
   // for (let i = 1; i >= hisob; i++) {
-  hisob = hisob + 1;
+  hisob = hisob + 4;
   document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   // }
   //   var allElements = document.createElement("div");
