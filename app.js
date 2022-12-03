@@ -1,6 +1,8 @@
 let pizza = document.querySelector(".pitsa-hamiri");
 let siri = document.getElementById("sbtn");
 siri.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const sir = document.createElement("div");
   sir.classList.add("sir");
   sir.innerText = "";
@@ -24,6 +26,8 @@ siri.addEventListener("click", (e) => {
 });
 let kolbasa = document.getElementById("kbtn");
 kolbasa.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const kolbasa = document.createElement("div");
   kolbasa.classList.add("kolbasa");
   kolbasa.innerText = "";
@@ -47,6 +51,8 @@ kolbasa.addEventListener("click", (e) => {
 });
 let pamidor = document.getElementById("pbtn");
 pamidor.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const pamidor = document.createElement("div");
   pamidor.classList.add("pamidor");
   pamidor.innerText = "";
@@ -70,6 +76,8 @@ pamidor.addEventListener("click", (e) => {
 });
 let qq = document.getElementById("qbtn");
 qq.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const qq = document.createElement("div");
   qq.classList.add("qq");
   qq.innerText = "";
@@ -93,6 +101,8 @@ qq.addEventListener("click", (e) => {
 });
 let bodring = document.getElementById("bbtn");
 bodring.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const bodring = document.createElement("div");
   bodring.classList.add("bodring");
   bodring.innerText = "";
@@ -116,6 +126,8 @@ bodring.addEventListener("click", (e) => {
 });
 let ketchup = document.getElementById("cbtn");
 ketchup.addEventListener("click", (e) => {
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const ketchup = document.createElement("div");
   ketchup.classList.add("ketchup");
   ketchup.innerText = "/|/";
@@ -123,7 +135,8 @@ ketchup.addEventListener("click", (e) => {
 });
 let mayanez = document.getElementById("mbtn");
 mayanez.addEventListener("click", (e) => {
-  hisob += 1;
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   const mayanez = document.createElement("div");
   mayanez.classList.add("mayanez");
   mayanez.innerText = "}{}{";
@@ -133,7 +146,8 @@ mayanez.addEventListener("click", (e) => {
 let big = document.getElementById("bigBtn");
 big.addEventListener("click", (e) => {
   // for (let i = 1; i >= hisob; i++) {
-  hisob += 1;
+  hisob = hisob + 1;
+  document.querySelector(".hisob").textContent = `Buyurtma:  ${hisob}$ dollar`;
   // }
   //   var allElements = document.createElement("div");
   //   allElements.classList.add("pitsa-hamiri");
@@ -157,7 +171,7 @@ qayta.addEventListener("click", (e) => {
 });
 
 // let shot = `Buyurtma qiymati ${hisob}$`;
-let hisob = 10;
+let hisob = 1;
 // let alll = document.createElement("h2");
 // alll.innerText = `${shot} boldi`;
 // alll.style.fontSize = "200px";
